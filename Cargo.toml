@@ -9,3 +9,7 @@ keywords = ["slack", "bot", "slackbot", "webhook", "slack-api"]
 
 [dependencies]
 rustc-serialize = "0.3"
+
+[dev-dependencies]
+cargo-watch = "*"
+rustfmt = "*"
