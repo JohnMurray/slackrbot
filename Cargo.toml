@@ -1,6 +1,7 @@
 [package]
 name = "slackrbot"
 description = "Library for easily creating Slack bots"
+homepage = "https://github.com/JohnMurray/slackrbot"
 version = "0.1.0"
 authors = ["John Murray <me@johnmurray.io>"]
 license = "Apache-2.0"
