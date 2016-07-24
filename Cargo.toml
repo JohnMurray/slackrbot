@@ -1,7 +1,13 @@
 [package]
 name = "slackrbot"
+description = "Library for easily creating Slack bots"
 version = "0.1.0"
 authors = ["John Murray <me@johnmurray.io>"]
+license = "Apache-2.0"
+keywords = ["slack", "bot", "slackbot", "webhook", "slack-api"]
 
 [dependencies]
 rustc-serialize = "0.3"
+
+[build-dependencies]
+rustfmt = "*"

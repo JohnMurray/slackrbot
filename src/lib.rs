@@ -11,8 +11,8 @@ mod tests {
 
 #[derive(RustcDecodable, RustcEncodable)]
 struct Message {
-    channel: str,
-    user: str,
-    text: str,
-    ts: str,
+    channel: String,
+    user: String,
+    text: String,
+    ts: u32,
 }
