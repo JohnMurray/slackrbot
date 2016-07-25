@@ -8,6 +8,12 @@ mod tests {
 }
 
 
+struct SlackrBot {
+  port: u16,
+}
+
+
+
 /*
  * EVENT OBJECT
  */
